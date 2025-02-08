@@ -1,0 +1,74 @@
+@import 'bulma/css/bulma.min.css';
+
+html, body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: "Catamaran", serif;
+}
+body {
+  background: #f5ebb4;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Catamaran", serif;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+}
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  font-family: "Catamaran", serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  font-family: "Catamaran", serif;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-family: "Catamaran", serif;
+  font-size: 16px;
+  font-weight: 700;
+  color:#422e03;
+  letter-spacing: .03em;
+  word-break: break-word;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+}
+.input {
+  font-family: "Catamaran", serif;
+  font-weight: 700;
+}
+input {
+  font-family: "Catamaran", serif;
+  font-weight: 700;
+}
+select {
+  font-family: "Catamaran", serif;
+  font-weight: 700;
+}
+.notification {
+  font-family: "Catamaran", serif;
+  word-break: break-word;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
