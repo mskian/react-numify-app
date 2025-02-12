@@ -2,7 +2,8 @@
 
 🔢 Compact Number and Currency Formatter - Simple tool to Convert long numbers into a human-readable format.  
 
-Live Site: **<https://numify.pages.dev/>**  
+- Live Site: **<https://numify.pages.dev/>**
+- From Numify Package: **<https://numify.pages.dev/numify>**  
 
 ## 💡 Credits
 
