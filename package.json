@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "bulma": "^1.0.4",
-    "dompurify": "^3.2.6",
+    "dompurify": "^3.2.7",
     "numify": "^1.1.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
